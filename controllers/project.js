@@ -9,7 +9,6 @@ var controller ={
 			message: 'Soy la home'
 		});
 	},
-
 	test: function(req, res){
 		return res.status(200).send({
 			message:'Soy el método test del controlador project'
